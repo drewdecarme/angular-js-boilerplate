@@ -1,0 +1,19 @@
+/*-----------------------------------------*\
+    SCREEN BREAKPOINTS
+\*-----------------------------------------*/
+$XS: 0px;       // 0px  - 575px         (X-Small Mobile)
+$SM: 576px;     // 576px - 768px        (Mobile and Tablet)     
+$MD: 769px;     // 769px - 1279px       (Medium Desktop)
+$LG: 1280px;    // 1280px - 1599px      (Large Desktop)
+$XL: 1600px;    // 1600px +             (X-Large Desktop)
+
+/*-----------------------------------------*\
+    GRID
+\*-----------------------------------------*/
+$grid-gutter: 12px;
+$grid-gutter-md: 16px;
+$grid-sides: 20px;
+$grid-sides-md: 32px;
+$grid-cols: 16;
+$grid-offset-md: 72px;
+$grid-width: percentage(1/$grid-cols);
